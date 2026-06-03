@@ -4,8 +4,14 @@ base_url = "https://jsonplaceholder.typicode.com/"
 
 
 def fetch_and_display_users(num_users):
-    url = f"{base_url}users?_limit={num_users}"
+
+    if num_users < 1:
+        print(f"\nUser num must be positive. Received: {num_users}")
+        return
+
     print(f"\n--- Requesting {num_users} users ---")
+
+    url = f"{base_url}users?_limit={num_users}"
     try:
         response = requests.get(url)
 
@@ -14,7 +20,7 @@ def fetch_and_display_users(num_users):
 
             selected_users = data[:num_users]
 
-            print(f"\n--- Displaying First {len(selected_users)} Users ---")
+            print(f"\n--- Response get {len(selected_users)} ysers ---")
 
             for user in selected_users:
                 try:
@@ -39,3 +45,6 @@ def fetch_and_display_users(num_users):
 
 fetch_and_display_users(4)
 fetch_and_display_users(16)
+
+fetch_and_display_users(0)
+fetch_and_display_users(-16)

@@ -39,15 +39,19 @@ Ensure Python is installed on your machine. Next, install the necessary dependen
 ```bash
 python -m pip install requests black flake8
 
+```
 ---
 
 ## 4. Reflections
 
-4.1 What I Found Most Challenginggit 
- Coming from a background as a Java/Kotlin Android developer, adjusting to Python's syntax was the biggest hurdle. Being used to strictly typed languages (strogo tipirani jezici), Python's dynamic typing and heavy reliance on whitespace indentation felt completely unnatural at first. Debugging errors like TypeError: string indices must be integers required a shift in mindset, forcing me to carefully track data types manually since the compiler wasn't doing it for me up front.Furthermore, I made a mistake in a few of my final commit messages by accidentally forgetting to include the relevant task numbers—a great reminder of the importance of disciplined version control habits.
 
-4.2 What I Found Most Interesting
-The most enjoyable part of the project was working within the VS Code environment. The IDE's next-line code predictions were incredibly accurate and streamlined my workflow. I also loved utilizing ecosystem tools like Black and Flake8; having automated style linters that instantly pinpoint errors or automatically format layout discrepancies made managing a clean codebase exceptionally fun and satisfying.
+* **4.1 What I Found Most Challenginggit**
+    *    Coming from a background as a Java/Kotlin Android developer, adjusting to Python's syntax was the biggest hurdle. Being used to strictly typed languages (strogo tipirani jezici), Python's dynamic typing and heavy reliance on whitespace indentation felt completely unnatural at first. Debugging errors like TypeError: string indices must be integers required a shift in mindset, forcing me to carefully track data types manually since the compiler wasn't doing it for me up front.
+    * Furthermore, I made a mistake in a few of my final commit messages by accidentally forgetting to include the relevant task numbers—a great reminder of the importance of disciplined version control habits.
 
-4.3 One Thing I Learned or Improved
-The biggest takeaway from this assessment was learning how easy it is to spin up and manage a lightweight, isolated local environment in Python. I didn't know it was possible to get an entirely separate development environment running so quickly and smoothly with just a few simple terminal commands. This is a massive contrast to the heavy setup requirements of Android Studio, and it greatly improved my appreciation for Python's agility.
+* **4.2 What I Found Most Interesting**
+    * The most enjoyable part of the project was working within the VS Code environment. The IDE's next-line code predictions were incredibly accurate and streamlined my workflow. I also loved utilizing ecosystem tools like Black and Flake8; having automated style linters that instantly pinpoint errors or automatically format layout discrepancies made managing a clean codebase exceptionally fun and satisfying.
+
+
+* **4.3 One Thing I Learned or Improved**
+    * The biggest takeaway from this assessment was learning how easy it is to spin up and manage a lightweight, isolated local environment in Python. I didn't know it was possible togit get an entirely separate development environment running so quickly and smoothly with just a few simple terminal commands. This is a massive contrast to the heavy setup requirements of Android Studio, and it greatly improved my appreciation for Python's agility.

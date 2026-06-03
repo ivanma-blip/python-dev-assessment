@@ -13,21 +13,33 @@ The core application handles real-world programming workflows, ranging from form
 ## 2. Completed Tasks
 Here is the breakdown of the engineering milestones achieved during this project, linked to their respective source files:
 
-* **Task 1: Environment & VCS Setup**
+* **Task 1.1: "Hello World" Confirmation**
     * Set up a local Python environment, initialized Git for version control, and linked the repository to GitHub.
+* **Task 1.2: Version Control Basics (Git & GitHub)**
     * Created the baseline entry-point script: [`hello.py`](https://github.com/ivanma-blip/python-dev-assessment/blob/a783cf20b420a45dfbe4b4efffd9f52898942360/hello.py)
-* **Task 2: Code Style & Linting**
+* **Task: 1.3. Code Style & Linting**
     * Configured **Black** (code formatter) and **Flake8** (linter).
     * Fixed styling conflicts, resolved permission errors, and manually handled implicit string continuations for maximum line-length compliance.
-    * Files addressed: [`bad_style.py`](https://github.com/ivanma-blip/python-dev-assessment/blob/a783cf20b420a45dfbe4b4efffd9f52898942360/bad_style.py) and [`book_store.py`](https://github.com/ivanma-blip/python-dev-assessment/blob/a783cf20b420a45dfbe4b4efffd9f52898942360/book_store.py)
-* **Task 3: Error Handling & Debugging**
+    * File addressed: [`bad_style.py`](https://github.com/ivanma-blip/python-dev-assessment/blob/a783cf20b420a45dfbe4b4efffd9f52898942360/bad_style.py) 
+* **Task 2.1: Data Structure & Algorithm Challenges**
+    * Refresh my knowladge about algoritams.
     * Deeply explored data structures (Lists vs. Strings) to prevent index lookup mistakes.
+    * File addressed: [`dsa_challenges.py`](https://github.com/ivanma-blip/python-dev-assessment/blob/a783cf20b420a45dfbe4b4efffd9f52898942360/dsa_challenges.py)
+* **Task 2.2: Implement a Book Class.**
+    * Learn more deeply Python syntax
+    * Get familiar with Classes and rules for OOP in Python.
+    * File addressed: [`book_store.py`](https://github.com/ivanma-blip/python-dev-assessment/blob/a783cf20b420a45dfbe4b4efffd9f52898942360/book_store.py)
+* **Task 2.3: Debugging and Error Handling**
+    * Get knowladge how to debug in Visual Studio Code.
     * Implemented exception-driven code patterns to safely handle unexpected data structures.
-    * Files addressed: [`debug_errors.py`](https://github.com/ivanma-blip/python-dev-assessment/blob/a783cf20b420a45dfbe4b4efffd9f52898942360/debug_errors.py) and [`dsa_challenges.py`](https://github.com/ivanma-blip/python-dev-assessment/blob/a783cf20b420a45dfbe4b4efffd9f52898942360/dsa_challenges.py)
-* **Task 4: Basic API Interaction**
+    * File addressed: [`debug_errors.py`](https://github.com/ivanma-blip/python-dev-assessment/blob/a783cf20b420a45dfbe4b4efffd9f52898942360/debug_errors.py)
+* **Task 3.1: Fetch and Process API Data**
     * Integrated the third-party `requests` library to connect to the JSONPlaceholder API.
     * Built structured `if/else` checks for HTTP status codes alongside localized exception handling to safely parse, filter, and output user details.
-    * Primary client file: [`api_client.py`](https://github.com/ivanma-blip/python-dev-assessment/blob/a783cf20b420a45dfbe4b4efffd9f52898942360/api_client.py)
+    * File addressed: [`api_client.py`](https://github.com/ivanma-blip/python-dev-assessment/blob/a783cf20b420a45dfbe4b4efffd9f52898942360/api_client.py)
+* **Task 3.2: Final Submission Preparation**
+    * Merge every branch in main branch by using `rebase` and `merge` commands from 'Git'.
+    * Learn more about decoration in 'Markdown' in (this) 'README.md' file 
 
 ---
 
